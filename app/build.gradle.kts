@@ -34,11 +34,12 @@ android {
         resourceConfigurations += mutableSetOf("en", "ru", "uz")
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        javaCompileOptions {
-            annotationProcessorOptions {
-                arguments["room.schemaLocation"] = "$projectDir/schemas"
-            }
-        }
+        //TODO when must will be db, open the this comment
+//        javaCompileOptions {
+//            annotationProcessorOptions {
+//                arguments["room.schemaLocation"] = "$projectDir/schemas"
+//            }
+//        }
     }
 
     experimentalProperties["android.experimental.self-instrumenting"] = true
