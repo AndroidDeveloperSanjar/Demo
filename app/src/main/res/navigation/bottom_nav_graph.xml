@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_nav_graph"
+    app:startDestination="@id/firstChild">
+
+    <fragment
+        android:id="@+id/firstChild"
+        android:name="uz.example.demo.presentation.main.childs.first.FirstChildFragment"
+        android:label="FirstChildFragment" />
+
+    <fragment
+        android:id="@+id/secondChild"
+        android:name="uz.example.demo.presentation.main.childs.second.SecondChildFragment"
+        android:label="SecondChildFragment" />
+
+    <fragment
+        android:id="@+id/thirdChild"
+        android:name="uz.example.demo.presentation.main.childs.third.ThirdChildFragment"
+        android:label="ThirdChildFragment" />
+
+</navigation>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_uzb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:text="Uzbek" />
+
+    <Button
+        android:id="@+id/btn_eng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:text="English" />
+
+    <TextView
+        android:id="@+id/tv_hello_world"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/test_hello_world" />
+
+    <Button
+        android:id="@+id/btn_night"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="56dp"
+        android:text="Night" />
+
+    <Button
+        android:id="@+id/btn_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:backgroundTint="@color/color_test"
+        android:text="Light"
+        android:textColor="@color/color_test_2" />
+
+    <TextView
+        android:id="@+id/tv_hello_world_theme"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/color_test_2"
+        android:gravity="center"
+        android:text="@string/test_hello_world"
+        android:textColor="@color/color_test" />
+
+</LinearLayout>

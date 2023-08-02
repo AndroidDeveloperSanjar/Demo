@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">Demo</string>
+    <string name="test_hello_world">Hello world!</string>
+
+    <!-- Language codes -->
+    <string name="uz" translatable="false">uz</string>
+    <string name="en" translatable="false">en</string>
+
+    <!-- Theme name -->
+    <string name="light" translatable="false">light</string>
+    <string name="night" translatable="false">night</string>
+
+</resources>
